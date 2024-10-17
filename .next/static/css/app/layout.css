@@ -1,0 +1,2121 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__geistSans_1e4310';
+src: url(/_next/static/media/4473ecc91f70f139-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__geistSans_Fallback_1e4310';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
+}.__className_1e4310 {font-family: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}.__variable_1e4310 {--font-geist-sans: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__geistMono_c3aa02';
+src: url(/_next/static/media/463dafcda517f24f-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__geistMono_Fallback_c3aa02';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
+}.__className_c3aa02 {font-family: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}.__variable_c3aa02 {--font-geist-mono: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/@assistant-ui/react/dist/styles/themes/default.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --aui-background: 0 0% 100%;
+  --aui-foreground: 240 10% 3.9%;
+
+  --aui-card: 0 0% 100%;
+  --aui-card-foreground: 240 10% 3.9%;
+
+  --aui-popover: 0 0% 100%;
+  --aui-popover-foreground: 240 10% 3.9%;
+
+  --aui-primary: 240 5.9% 10%;
+  --aui-primary-foreground: 0 0% 98%;
+
+  --aui-secondary: 240 4.8% 95.9%;
+  --aui-secondary-foreground: 240 5.9% 10%;
+
+  --aui-muted: 240 4.8% 95.9%;
+  --aui-muted-foreground: 240 3.8% 46.1%;
+
+  --aui-accent: 240 4.8% 95.9%;
+  --aui-accent-foreground: 240 5.9% 10%;
+
+  --aui-destructive: 0 84.2% 60.2%;
+  --aui-destructive-foreground: 0 0% 98%;
+
+  --aui-border: 240 5.9% 90%;
+  --aui-input: 240 5.9% 90%;
+  --aui-ring: 240 10% 3.9%;
+
+  --aui-radius: 0.5rem;
+}
+
+.dark {
+  --aui-background: 0 0% 7%;
+  --aui-foreground: 0 0% 98%;
+
+  --aui-card: 240 10% 3.9%;
+  --aui-card-foreground: 0 0% 98%;
+
+  --aui-popover: 240 10% 3.9%;
+  --aui-popover-foreground: 0 0% 98%;
+
+  --aui-primary: 0 0% 98%;
+  --aui-primary-foreground: 240 5.9% 10%;
+
+  --aui-secondary: 240 3.7% 15.9%;
+  --aui-secondary-foreground: 0 0% 98%;
+
+  --aui-muted: 240 3.7% 15.9%;
+  --aui-muted-foreground: 240 5% 64.9%;
+
+  --aui-accent: 240 3.7% 15.9%;
+  --aui-accent-foreground: 0 0% 98%;
+
+  --aui-destructive: 0 62.8% 30.6%;
+  --aui-destructive-foreground: 0 0% 98%;
+
+  --aui-border: 240 3.7% 15.9%;
+  --aui-input: 240 3.7% 15.9%;
+  --aui-ring: 240 4.9% 83.9%;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/@assistant-ui/react/dist/styles/tailwindcss/base-components.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.aui-root {
+
+  color: hsl(var(--aui-foreground))
+}
+
+.aui-root * {
+
+  border-color: hsl(var(--aui-border))
+}
+
+/* shadcn-ui/button */
+.aui-button {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  white-space: nowrap;
+
+  border-radius: 0.375rem;
+
+  font-size: 0.875rem;
+
+  line-height: 1.25rem;
+
+  font-weight: 500;
+
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 150ms
+}
+.aui-button:focus-visible {
+
+  outline: 2px solid transparent;
+
+  outline-offset: 2px;
+
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+
+  --tw-ring-color: hsl(var(--aui-ring))
+}
+.aui-button:disabled {
+
+  pointer-events: none;
+
+  opacity: 0.5
+}
+
+.aui-button-primary {
+
+  background-color: hsl(var(--aui-primary));
+
+  color: hsl(var(--aui-primary-foreground));
+
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.aui-button-primary:hover {
+
+  background-color: hsl(var(--aui-primary) / 0.9)
+}
+
+.aui-button-outline {
+
+  border-width: 1px;
+
+  border-color: hsl(var(--aui-input));
+
+  background-color: hsl(var(--aui-background));
+
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.aui-button-outline:hover {
+
+  background-color: hsl(var(--aui-accent));
+
+  color: hsl(var(--aui-accent-foreground))
+}
+
+.aui-button-ghost:hover {
+
+  background-color: hsl(var(--aui-accent));
+
+  color: hsl(var(--aui-accent-foreground))
+}
+
+.aui-button-medium {
+
+  height: 2.25rem;
+
+  padding-left: 1rem;
+
+  padding-right: 1rem;
+
+  padding-top: 0.5rem;
+
+  padding-bottom: 0.5rem
+}
+
+/** tooltip icon button */
+.aui-button-icon {
+
+  width: 1.5rem;
+
+  height: 1.5rem;
+
+  padding: 0.25rem
+}
+
+.aui-sr-only {
+
+  position: absolute;
+
+  width: 1px;
+
+  height: 1px;
+
+  padding: 0;
+
+  margin: -1px;
+
+  overflow: hidden;
+
+  clip: rect(0, 0, 0, 0);
+
+  white-space: nowrap;
+
+  border-width: 0
+}
+
+/* shadcn-ui/avatar */
+
+.aui-avatar-root {
+
+  position: relative;
+
+  display: flex;
+
+  height: 2.5rem;
+
+  width: 2.5rem;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  border-radius: 9999px
+}
+
+.aui-avatar-image {
+
+  aspect-ratio: 1 / 1;
+
+  height: 100%;
+
+  width: 100%;
+
+  object-fit: cover
+}
+
+.aui-avatar-fallback {
+
+  display: flex;
+
+  height: 100%;
+
+  width: 100%;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 9999px;
+
+  background-color: hsl(var(--aui-muted))
+}
+
+/* shadcn-ui/tooltip */
+
+.aui-tooltip-content {
+
+  z-index: 50;
+
+  overflow: hidden;
+
+  border-radius: 0.375rem;
+
+  border-width: 1px;
+
+  background-color: hsl(var(--aui-popover));
+
+  padding-left: 0.75rem;
+
+  padding-right: 0.75rem;
+
+  padding-top: 0.375rem;
+
+  padding-bottom: 0.375rem;
+
+  font-size: 0.875rem;
+
+  line-height: 1.25rem;
+
+  color: hsl(var(--aui-popover-foreground));
+
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+  animation-name: enter;
+
+  animation-duration: 150ms;
+
+  --tw-enter-opacity: initial;
+
+  --tw-enter-scale: initial;
+
+  --tw-enter-rotate: initial;
+
+  --tw-enter-translate-x: initial;
+
+  --tw-enter-translate-y: initial;
+
+  --tw-enter-opacity: 0;
+
+  --tw-enter-scale: .95
+}
+
+.aui-tooltip-content[data-state="closed"] {
+
+  animation-name: exit;
+
+  animation-duration: 150ms;
+
+  --tw-exit-opacity: initial;
+
+  --tw-exit-scale: initial;
+
+  --tw-exit-rotate: initial;
+
+  --tw-exit-translate-x: initial;
+
+  --tw-exit-translate-y: initial;
+
+  --tw-exit-opacity: 0;
+
+  --tw-exit-scale: .95
+}
+
+.aui-tooltip-content[data-side="bottom"] {
+
+  --tw-enter-translate-y: -0.5rem
+}
+
+.aui-tooltip-content[data-side="left"] {
+
+  --tw-enter-translate-x: 0.5rem
+}
+
+.aui-tooltip-content[data-side="right"] {
+
+  --tw-enter-translate-x: -0.5rem
+}
+
+.aui-tooltip-content[data-side="top"] {
+
+  --tw-enter-translate-y: 0.5rem
+}
+
+/* shadcn-ui/dialog */
+
+.aui-dialog-overlay {
+
+  position: fixed;
+
+  inset: 0px;
+
+  z-index: 50;
+
+  background-color: rgb(0 0 0 / 0.8)
+}
+
+.aui-dialog-overlay[data-state="open"] {
+
+  animation-name: enter;
+
+  animation-duration: 150ms;
+
+  --tw-enter-opacity: initial;
+
+  --tw-enter-scale: initial;
+
+  --tw-enter-rotate: initial;
+
+  --tw-enter-translate-x: initial;
+
+  --tw-enter-translate-y: initial
+}
+
+.aui-dialog-overlay[data-state="closed"] {
+
+  animation-name: exit;
+
+  animation-duration: 150ms;
+
+  --tw-exit-opacity: initial;
+
+  --tw-exit-scale: initial;
+
+  --tw-exit-rotate: initial;
+
+  --tw-exit-translate-x: initial;
+
+  --tw-exit-translate-y: initial;
+
+  --tw-exit-opacity: 0
+}
+
+.aui-dialog-overlay[data-state="open"] {
+
+  --tw-enter-opacity: 0
+}
+
+.aui-dialog-content {
+
+  position: fixed;
+
+  left: 50%;
+
+  top: 50%;
+
+  z-index: 50
+}
+
+.aui-dialog-content[data-state="open"] {
+
+  animation-name: enter;
+
+  animation-duration: 150ms;
+
+  --tw-enter-opacity: initial;
+
+  --tw-enter-scale: initial;
+
+  --tw-enter-rotate: initial;
+
+  --tw-enter-translate-x: initial;
+
+  --tw-enter-translate-y: initial
+}
+
+.aui-dialog-content[data-state="closed"] {
+
+  animation-name: exit;
+
+  animation-duration: 150ms;
+
+  --tw-exit-opacity: initial;
+
+  --tw-exit-scale: initial;
+
+  --tw-exit-rotate: initial;
+
+  --tw-exit-translate-x: initial;
+
+  --tw-exit-translate-y: initial;
+
+  --tw-exit-opacity: 0
+}
+
+.aui-dialog-content[data-state="open"] {
+
+  --tw-enter-opacity: 0
+}
+
+.aui-dialog-content[data-state="closed"] {
+
+  --tw-exit-scale: .95
+}
+
+.aui-dialog-content[data-state="open"] {
+
+  --tw-enter-scale: .95
+}
+
+.aui-dialog-content[data-state="closed"] {
+
+  --tw-exit-translate-x: -50%;
+
+  --tw-exit-translate-y: -48%
+}
+
+.aui-dialog-content[data-state="open"] {
+
+  --tw-enter-translate-x: -50%;
+
+  --tw-enter-translate-y: -48%
+}
+
+.aui-dialog-content {
+
+  display: grid;
+
+  --tw-translate-x: -50%;
+
+  --tw-translate-y: -50%;
+
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+  transition-duration: 200ms;
+
+  animation-duration: 200ms
+  /* @apply w-full bg-background max-w-lg gap-4 border p-6 sm:rounded-lg; */
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/@assistant-ui/react/dist/styles/tailwindcss/thread.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* thread */
+.aui-thread-root {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: hsl(var(--aui-background))
+}
+.aui-thread-root>.aui-thread-viewport {
+    background-color: inherit
+}
+
+.aui-thread-viewport {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: hsl(var(--aui-background));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem
+}
+
+.aui-thread-viewport-footer {
+    position: sticky;
+    bottom: 0px;
+    margin-top: 0.75rem;
+    display: flex;
+    width: 100%;
+    max-width: 42rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: inherit;
+    padding-bottom: 1rem
+}
+
+.aui-thread-scroll-to-bottom {
+    position: absolute;
+    top: -2rem;
+    border-radius: 9999px
+}
+
+.aui-thread-scroll-to-bottom:disabled {
+    visibility: hidden
+}
+
+.aui-thread-followup-suggestions {
+    display: flex;
+    min-height: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem
+}
+
+.aui-thread-followup-suggestion {
+    border-radius: 9999px;
+    border-width: 1px;
+    background-color: hsl(var(--aui-background));
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1)
+}
+
+.aui-thread-followup-suggestion:hover {
+    background-color: hsl(var(--aui-muted) / 0.8)
+}
+
+/* thread welcome */
+
+.aui-thread-welcome-root {
+    display: flex;
+    width: 100%;
+    max-width: 42rem;
+    flex-grow: 1;
+    flex-direction: column
+}
+
+.aui-thread-welcome-center {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.aui-thread-welcome-message {
+    margin-top: 1rem;
+    font-weight: 500
+}
+
+.aui-thread-welcome-suggestion-container {
+    margin-top: 0.75rem;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem
+}
+
+.aui-thread-welcome-suggestion {
+    display: flex;
+    max-width: 24rem;
+    flex-grow: 1;
+    flex-basis: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 0.75rem;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1)
+}
+
+.aui-thread-welcome-suggestion:hover {
+    background-color: hsl(var(--aui-muted) / 0.8)
+}
+
+.aui-thread-welcome-suggestion-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600
+}
+
+/* thread composer */
+
+.aui-composer-root {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    background-color: inherit;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1)
+}
+
+.aui-composer-root:focus-within {
+    border-color: hsl(var(--aui-ring) / 0.2)
+}
+
+.aui-composer-input {
+    max-height: 10rem;
+    flex-grow: 1;
+    resize: none;
+    border-style: none;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+
+.aui-composer-input::placeholder {
+    color: hsl(var(--aui-muted-foreground))
+}
+
+.aui-composer-input:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
+}
+
+.aui-composer-input:disabled {
+    cursor: not-allowed
+}
+
+.aui-composer-send,
+.aui-composer-cancel,
+.aui-composer-attach {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1)
+}
+
+.aui-composer-attachments {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+}
+
+/* attachment */
+
+.aui-attachment-root {
+    position: relative;
+    margin-top: 0.75rem;
+    display: flex;
+    height: 3rem;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 0.25rem
+}
+
+.aui-attachment-preview-trigger {
+    cursor: pointer;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms
+}
+
+.aui-attachment-preview-trigger:hover {
+    background-color: hsl(var(--aui-accent) / 0.5)
+}
+
+.aui-attachment-thumb {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    background-color: hsl(var(--aui-muted));
+    font-size: 0.875rem;
+    line-height: 1.25rem
+}
+
+.aui-attachment-text {
+    flex-grow: 1;
+    flex-basis: 0px
+}
+
+.aui-attachment-name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: hsl(var(--aui-muted-foreground))
+}
+
+.aui-attachment-type {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: hsl(var(--aui-muted-foreground))
+}
+
+.aui-attachment-remove {
+    position: absolute;
+    right: -0.75rem;
+    top: -0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: hsl(var(--aui-muted-foreground))
+}
+
+.aui-attachment-remove>svg {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 9999px;
+    background-color: hsl(var(--aui-background))
+}
+
+/* user message */
+
+.aui-user-message-root {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: minmax(72px,1fr) auto;
+    row-gap: 0.5rem
+}
+
+.aui-user-message-root>* {
+    grid-column-start: 2
+}
+
+.aui-user-message-root {
+    width: 100%;
+    max-width: 42rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+:where(.aui-user-message-root) > .aui-user-action-bar-root {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-right: 0.75rem;
+    margin-top: 0.625rem
+}
+
+:where(.aui-user-message-root) > .aui-user-message-attachments {
+    grid-column: 1 / -1;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-content: flex-end
+}
+
+:where(.aui-user-message-root) > .aui-user-message-content {
+    grid-column-start: 2;
+    grid-row-start: 2
+}
+
+:where(.aui-user-message-root) > .aui-branch-picker-root {
+    grid-column: 1 / -1;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin-right: -0.25rem;
+    justify-content: flex-end
+}
+
+.aui-user-message-content {
+    max-width: 36rem;
+    overflow-wrap: break-word;
+    border-radius: 1.5rem;
+    background-color: hsl(var(--aui-muted));
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: hsl(var(--aui-foreground))
+}
+
+.aui-user-message-attachments {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 0.75rem
+}
+
+/* user action bar */
+
+.aui-user-action-bar-root {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+/* edit composer */
+
+.aui-edit-composer-root {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+    max-width: 42rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    background-color: hsl(var(--aui-muted))
+}
+
+.aui-edit-composer-input {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    padding: 1rem;
+    padding-bottom: 0px;
+    color: hsl(var(--aui-foreground));
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+
+.aui-edit-composer-footer {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    align-self: flex-end
+}
+
+/* assistant message */
+
+.aui-assistant-message-root {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto 1fr;
+    position: relative;
+    width: 100%;
+    max-width: 42rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+:where(.aui-assistant-message-root) > .aui-avatar-root {
+    grid-column-start: 1;
+    grid-row: 1 / -1;
+    grid-row-start: 1;
+    margin-right: 1rem
+}
+
+:where(.aui-assistant-message-root) > .aui-branch-picker-root {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: -0.5rem;
+    margin-right: 0.5rem
+}
+
+:where(.aui-assistant-message-root) > .aui-assistant-action-bar-root {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    margin-left: -0.25rem
+}
+
+:where(.aui-assistant-message-root) > .aui-assistant-message-content {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin-top: 0.375rem;
+    margin-bottom: 0.375rem
+}
+
+.aui-assistant-message-content {
+    max-width: 36rem;
+    overflow-wrap: break-word;
+    line-height: 1.75rem;
+    color: hsl(var(--aui-foreground))
+}
+
+/* assistant action bar */
+
+.aui-assistant-action-bar-root {
+    display: flex;
+    gap: 0.25rem;
+    color: hsl(var(--aui-muted-foreground))
+}
+
+:where(.aui-assistant-action-bar-root)[data-floating] {
+    position: absolute;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    background-color: hsl(var(--aui-background));
+    padding: 0.25rem;
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+:where(.aui-assistant-action-bar-feedback-positive)[data-submitted] {
+    --tw-text-opacity: 1;
+    color: rgb(22 163 74 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-positive)[data-submitted]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(21 128 61 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-positive)[data-submitted]:is(.dark *) {
+    --tw-text-opacity: 1;
+    color: rgb(34 197 94 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-positive)[data-submitted]:hover:is(.dark *) {
+    --tw-text-opacity: 1;
+    color: rgb(74 222 128 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-negative)[data-submitted] {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-negative)[data-submitted]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(185 28 28 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-negative)[data-submitted]:is(.dark *) {
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity))
+}
+
+:where(.aui-assistant-action-bar-feedback-negative)[data-submitted]:hover:is(.dark *) {
+    --tw-text-opacity: 1;
+    color: rgb(248 113 113 / var(--tw-text-opacity))
+}
+
+/* branch picker */
+
+.aui-branch-picker-root {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: hsl(var(--aui-muted-foreground))
+}
+
+.aui-branch-picker-state {
+    font-weight: 500
+}
+
+/* text */
+
+.aui-text {
+    white-space: pre-line
+}
+
+@keyframes pulse {
+    50% {
+        opacity: .5
+    }
+}
+
+.aui-text-running::after {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --tw-content: '\25CF';
+    content: var(--tw-content)
+}
+
+.aui-text-running:where([dir="ltr"], [dir="ltr"] *)::after {
+    margin-left: 0.25rem
+}
+
+.aui-text-running:where([dir="rtl"], [dir="rtl"] *)::after {
+    margin-right: 0.25rem
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/@assistant-ui/react/dist/styles/tailwindcss/modal.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+.aui-modal-content {z-index: 50;height: 500px;width: 400px;overflow: clip;border-radius: 0.75rem;border-width: 1px;background-color: hsl(var(--aui-popover));padding: 0px;color: hsl(var(--aui-popover-foreground));--tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);outline: 2px solid transparent;outline-offset: 2px
+}.aui-modal-content>.aui-thread-root {background-color: inherit
+}.aui-modal-content[data-state="open"] {animation-name: enter;animation-duration: 150ms;--tw-enter-opacity: initial;--tw-enter-scale: initial;--tw-enter-rotate: initial;--tw-enter-translate-x: initial;--tw-enter-translate-y: initial
+}.aui-modal-content[data-state="closed"] {animation-name: exit;animation-duration: 150ms;--tw-exit-opacity: initial;--tw-exit-scale: initial;--tw-exit-rotate: initial;--tw-exit-translate-x: initial;--tw-exit-translate-y: initial;--tw-exit-opacity: 0
+}.aui-modal-content[data-state="open"] {--tw-enter-opacity: 0
+}.aui-modal-content[data-state="closed"] {--tw-exit-scale: 0
+}.aui-modal-content[data-state="open"] {--tw-enter-scale: 0;--tw-enter-translate-y: 50%;--tw-enter-translate-x: 50%
+}.aui-modal-content[data-state="closed"] {--tw-exit-translate-y: 50%;--tw-exit-translate-x: 50%
+}
+
+.aui-modal-anchor {position: fixed;bottom: 1rem;right: 1rem;width: 2.75rem;height: 2.75rem
+}
+
+.aui-modal-button {width: 100%;height: 100%;border-radius: 9999px;--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);transition-property: transform;transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);transition-duration: 150ms
+}
+
+.aui-modal-button:hover {--tw-scale-x: 1.1;--tw-scale-y: 1.1;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button:active {--tw-scale-x: .9;--tw-scale-y: .9;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-closed-icon {position: absolute;width: 1.5rem;height: 1.5rem;transition-property: all;transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);transition-duration: 150ms
+}
+
+.aui-modal-button-closed-icon[data-state="closed"] {--tw-rotate: 0deg;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-closed-icon[data-state="open"] {--tw-rotate: 90deg;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-closed-icon[data-state="closed"] {--tw-scale-x: 1;--tw-scale-y: 1;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-closed-icon[data-state="open"] {--tw-scale-x: 0;--tw-scale-y: 0;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-open-icon {position: absolute;width: 1.5rem;height: 1.5rem;transition-property: all;transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);transition-duration: 150ms
+}
+
+.aui-modal-button-open-icon[data-state="closed"] {--tw-rotate: -90deg;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-open-icon[data-state="open"] {--tw-rotate: 0deg;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-open-icon[data-state="closed"] {--tw-scale-x: 0;--tw-scale-y: 0;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.aui-modal-button-open-icon[data-state="open"] {--tw-scale-x: 1;--tw-scale-y: 1;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/@assistant-ui/react-markdown/dist/styles/tailwindcss/markdown.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* running indicator */
+@keyframes pulse {
+    50% {
+        opacity: .5
+    }
+}
+:where(.aui-md-running):empty::after,
+:where(.aui-md-running) > :where(:not(ol):not(ul):not(pre)):last-child::after,
+:where(.aui-md-running) > pre:last-child code::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child:not(:has(* > li)))::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child:not(:has(* > li)))::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)::after {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --tw-content: '\25CF';
+    content: var(--tw-content)
+}
+:where(.aui-md-running):empty:where([dir="ltr"], [dir="ltr"] *)::after,
+:where(.aui-md-running) > :where(:not(ol):not(ul):not(pre)):last-child:where([dir="ltr"], [dir="ltr"] *)::after,
+:where(.aui-md-running) > pre:last-child code:where([dir="ltr"], [dir="ltr"] *)::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child:not(:has(* > li))):where([dir="ltr"], [dir="ltr"] *)::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child:not(:has(* > li))):where([dir="ltr"], [dir="ltr"] *)::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child):where([dir="ltr"], [dir="ltr"] *)::after {
+    margin-left: 0.25rem
+}
+:where(.aui-md-running):empty:where([dir="rtl"], [dir="rtl"] *)::after,
+:where(.aui-md-running) > :where(:not(ol):not(ul):not(pre)):last-child:where([dir="rtl"], [dir="rtl"] *)::after,
+:where(.aui-md-running) > pre:last-child code:where([dir="rtl"], [dir="rtl"] *)::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child:not(:has(* > li))):where([dir="rtl"], [dir="rtl"] *)::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child:not(:has(* > li))):where([dir="rtl"], [dir="rtl"] *)::after,
+:where(.aui-md-running)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child)
+  > :where(:is(ol, ul):last-child)
+  > :where(li:last-child):where([dir="rtl"], [dir="rtl"] *)::after {
+    margin-right: 0.25rem
+}
+/* typography */
+
+.aui-md-root h1 {
+    margin-bottom: 2rem;
+    scroll-margin: 5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em
+}
+
+.aui-md-root h1:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root h2 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    scroll-margin: 5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.025em
+}
+
+.aui-md-root h2:first-child {
+    margin-top: 0px
+}
+
+.aui-md-root h2:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root h3 {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    scroll-margin: 5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.025em
+}
+
+.aui-md-root h3:first-child {
+    margin-top: 0px
+}
+
+.aui-md-root h3:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root h4 {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    scroll-margin: 5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.025em
+}
+
+.aui-md-root h4:first-child {
+    margin-top: 0px
+}
+
+.aui-md-root h4:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600
+}
+
+.aui-md-root h5:first-child {
+    margin-top: 0px
+}
+
+.aui-md-root h5:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600
+}
+
+.aui-md-root h6:first-child {
+    margin-top: 0px
+}
+
+.aui-md-root h6:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root p {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    line-height: 1.75rem
+}
+
+.aui-md-root p:first-child {
+    margin-top: 0px
+}
+
+.aui-md-root p:last-child {
+    margin-bottom: 0px
+}
+
+.aui-md-root a {
+    font-weight: 500;
+    color: hsl(var(--aui-primary));
+    text-decoration-line: underline;
+    text-underline-offset: 4px
+}
+
+.aui-md-root blockquote {
+    border-left-width: 2px;
+    padding-left: 1.5rem;
+    font-style: italic
+}
+
+.aui-md-root ul {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    list-style-type: disc
+}
+
+.aui-md-root ul>li {
+    margin-top: 0.5rem
+}
+
+.aui-md-root ol {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    list-style-type: decimal
+}
+
+.aui-md-root ol>li {
+    margin-top: 0.5rem
+}
+
+.aui-md-root hr {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-bottom-width: 1px
+}
+
+.aui-md-root table {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    width: 100%;
+    border-collapse: separate;
+    --tw-border-spacing-x: 0px;
+    --tw-border-spacing-y: 0px;
+    border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+    overflow-y: auto
+}
+
+.aui-md-root th {
+    background-color: hsl(var(--aui-muted));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+    font-weight: 700
+}
+
+.aui-md-root th:first-child {
+    border-top-left-radius: 0.5rem
+}
+
+.aui-md-root th:last-child {
+    border-top-right-radius: 0.5rem
+}
+
+.aui-md-root th[align=center] {
+    text-align: center
+}
+
+.aui-md-root th[align=right] {
+    text-align: right
+}
+
+.aui-md-root td {
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: left
+}
+
+.aui-md-root td:last-child {
+    border-right-width: 1px
+}
+
+.aui-md-root td[align=center] {
+    text-align: center
+}
+
+.aui-md-root td[align=right] {
+    text-align: right
+}
+
+.aui-md-root tr {
+    margin: 0px;
+    border-bottom-width: 1px;
+    padding: 0px
+}
+
+.aui-md-root tr:first-child {
+    border-top-width: 1px
+}
+
+.aui-md-root tr:last-child>td:first-child {
+    border-bottom-left-radius: 0.5rem
+}
+
+.aui-md-root tr:last-child>td:last-child {
+    border-bottom-right-radius: 0.5rem
+}
+
+.aui-md-root sup>a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-decoration-line: none
+}
+
+.aui-md-root pre {
+    overflow-x: auto;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    padding: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.aui-md-root > code,
+.aui-md-root :not(:where(pre)) code {
+    border-radius: 0.25rem;
+    border-width: 1px;
+    background-color: hsl(var(--aui-muted));
+    font-weight: 600
+}
+
+.aui-code-header-root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.aui-code-header-language {
+    text-transform: lowercase
+}
+
+.aui-code-header-language>span {
+    font-size: 0.75rem;
+    line-height: 1rem
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.h-dvh {
+  height: 100dvh;
+}
+.h-full {
+  height: 100%;
+}
+.w-full {
+  width: 100%;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-col {
+  flex-direction: column;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+.bg-purple-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 213 255 / var(--tw-bg-opacity));
+}
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+@keyframes enter {
+
+  from {
+    opacity: var(--tw-enter-opacity, 1);
+    transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0) scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1)) rotate(var(--tw-enter-rotate, 0));
+  }
+}
+@keyframes exit {
+
+  to {
+    opacity: var(--tw-exit-opacity, 1);
+    transform: translate3d(var(--tw-exit-translate-x, 0), var(--tw-exit-translate-y, 0), 0) scale3d(var(--tw-exit-scale, 1), var(--tw-exit-scale, 1), var(--tw-exit-scale, 1)) rotate(var(--tw-exit-rotate, 0));
+  }
+}
+.duration-1000 {
+  animation-duration: 1000ms;
+}
+
